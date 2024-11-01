@@ -1,6 +1,6 @@
 # Markdown Preview Mermaid Support
 
-[![](https://vsmarketplacebadges.dev/version/bierner.markdown-mermaid.png)](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+[![](https://vsmarketplacebadges.dev/version/edgebus.markdown-mermaid-container.png)](https://marketplace.visualstudio.com/items?itemName=edgebus.markdown-mermaid-container)
 
 Adds [Mermaid](https://mermaid-js.github.io/mermaid/#/) diagram and flowchart support to VS Code's builtin Markdown preview and to Markdown cells in notebooks.
 

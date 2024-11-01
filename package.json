@@ -1,7 +1,7 @@
 {
-  "name": "markdown-mermaid",
+  "name": "markdown-mermaid-container",
   "version": "1.26.0",
-  "displayName": "Markdown Preview Mermaid Support",
+  "displayName": "Mermaid In A Image Container (Fork)",
   "description": "Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview",
   "icon": "docs/logo.png",
   "keywords": [
@@ -11,13 +11,13 @@
     "diagram",
     "preview"
   ],
-  "publisher": "bierner",
+  "publisher": "edgebus",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/mjbvz/vscode-markdown-mermaid.git"
+    "url": "https://github.com/edgebus/vscode-markdown-mermaid-container.git"
   },
   "bugs": {
-    "url": "https://github.com/mjbvz/vscode-markdown-mermaid/issues"
+    "url": "https://github.com/edgebus/vscode-markdown-mermaid-container/issues"
   },
   "engines": {
     "vscode": "^1.72.0"
@@ -34,7 +34,7 @@
     ],
     "notebookRenderer": [
       {
-        "id": "bierner.markdown-it.mermaid-extension",
+        "id": "edgebus.markdown-it.mermaid-extension",
         "displayName": "Markdown it Mermaid renderer",
         "entrypoint": {
           "extends": "vscode.markdown-it-renderer",
@@ -44,7 +44,7 @@
     ],
     "markdown.markdownItPlugins": true,
     "configuration": {
-      "title": "Markdown Preview Mermaid Support",
+      "title": "Mermaid In A Image Container (Fork)",
       "properties": {
         "markdown-mermaid.lightModeTheme": {
           "order": 0,
@@ -98,6 +98,7 @@
     "@types/webpack-env": "^1.18.5",
     "@typescript-eslint/eslint-plugin": "^8.11.0",
     "@typescript-eslint/parser": "^8.11.0",
+    "@vscode/vsce": "^3.2.1",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.7.3",
     "eslint": "^9.13.0",
